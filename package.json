@@ -1,0 +1,26 @@
+{
+  "name": "learnboostrap",
+  "version": "1.0.0",
+  "description": "learning boostrap 5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Boostrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-boostrap"
+  ],
+  "author": "paul",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "font-awesome": "^4.7.0"
+  }
+}
